@@ -1,4 +1,4 @@
-FROM minecraft
+FROM terencewestphal/minecraft
 
 LABEL maintainer "Terence Westphal"
 
