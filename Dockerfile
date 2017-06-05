@@ -1,4 +1,4 @@
-FROM terencewestphal/minecraft
+FROM terencewestphal/minecraft:1.11.2
 
 LABEL maintainer "Terence Westphal"
 
