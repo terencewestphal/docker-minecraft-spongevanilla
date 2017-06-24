@@ -3,7 +3,7 @@ FROM terencewestphal/minecraft:1.12
 LABEL maintainer "Terence Westphal"
 
 # Use default value if the build argument is not set
-ARG VERSION=1.12-7.0.0-BETA-277
+ARG VERSION=1.12-7.0.0-BETA-288
 
 ENV SPONGE_VERSION=${VERSION}
 ENV PACKAGE="/opt/minecraft"
