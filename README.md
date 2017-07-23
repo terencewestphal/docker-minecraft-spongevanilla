@@ -10,7 +10,7 @@
 
 ## Supported tags and Dockerfile
 
-- `1.12-7.0.0-BETA-277`, `1.12-7.0.0-BETA-288`, `develop` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft-spongevanilla/develop/Dockerfile))
+- `develop` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft-spongevanilla/develop/Dockerfile))
 - `1.11.2-6.1.0-BETA-6`, `latest` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft-spongevanilla/1.11.2-6.1.0-BETA-6/Dockerfile))
 
 
@@ -30,7 +30,7 @@ docker build -t minecraft-spongevanilla .
 
 Optional: Build with a specific Minecraft version:   
 ```
-docker build --build-arg VERSION=1.12-7.0.0-BETA-288 -t minecraft-spongevanilla .
+docker build --build-arg VERSION=1.12-7.0.0-BETA-303 -t minecraft-spongevanilla .
 ```
 
 ## Run

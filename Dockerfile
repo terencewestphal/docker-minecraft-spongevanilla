@@ -1,9 +1,9 @@
-FROM terencewestphal/minecraft:1.12
+FROM terencewestphal/minecraft:1.12.1
 
 LABEL maintainer "Terence Westphal"
 
 # Use default value if the build argument is not set
-ARG VERSION=1.12-7.0.0-BETA-288
+ARG VERSION=1.12-7.0.0-BETA-303
 
 ENV SPONGE_VERSION=${VERSION}
 ENV PACKAGE="/opt/minecraft"
