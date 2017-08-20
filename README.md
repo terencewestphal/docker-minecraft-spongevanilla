@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/terencewestphal/docker-minecraft-spongevanilla.svg?branch=develop)](https://travis-ci.org/terencewestphal/docker-minecraft-spongevanilla) [![Docker Build Statu](https://img.shields.io/docker/build/terencewestphal/minecraft-spongevanilla.svg)](https://hub.docker.com/r/terencewestphal/minecraft-spongevanilla/builds/) ![Docker Stars](https://img.shields.io/docker/stars/terencewestphal/minecraft-spongevanilla.svg) [![Docker Pulls](https://img.shields.io/docker/pulls/terencewestphal/minecraft-spongevanilla.svg)](https://hub.docker.com/r/terencewestphal/minecraft-spongevanilla/) 
+[![Docker Build Statu](https://img.shields.io/docker/build/terencewestphal/minecraft-spongevanilla.svg)](https://hub.docker.com/r/terencewestphal/minecraft-spongevanilla/builds/) ![Docker Stars](https://img.shields.io/docker/stars/terencewestphal/minecraft-spongevanilla.svg) [![Docker Pulls](https://img.shields.io/docker/pulls/terencewestphal/minecraft-spongevanilla.svg)](https://hub.docker.com/r/terencewestphal/minecraft-spongevanilla/) 
 
 [![SpongeVanilla](https://github.com/terencewestphal/docker-minecraft-spongevanilla/blob/master/logo.png?raw=true)](https://www.spongepowered.org) 
 
@@ -10,7 +10,8 @@
 
 ## Supported tags and Dockerfile
 
-- `1.11.2-6.1.0-BETA-6`, `latest` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft-spongevanilla/1.11.2-6.1.0-BETA-6/Dockerfile))
+- `develop` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft-spongevanilla/develop/Dockerfile))
+- `1.12.1-7.0.0-BETA-316`, `latest` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft-spongevanilla/1.12.1-7.0.0-BETA-316/Dockerfile))
 
 
 ## Pull  
@@ -29,7 +30,7 @@ docker build -t minecraft-spongevanilla .
 
 Optional: Build with a specific Minecraft version:   
 ```
-docker build --build-arg VERSION=1.11.2-6.1.0-BETA-6 -t minecraft-spongevanilla .
+docker build --build-arg VERSION=1.12.1-7.0.0-BETA-316 -t minecraft-spongevanilla .
 ```
 
 ## Run
